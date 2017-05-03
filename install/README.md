@@ -7,3 +7,9 @@ brew link --overwrite composer
 php --version | head -n 1; composer --version
 
 ```
+
+### Python3
+
+```bash
+brew install python3
+```
