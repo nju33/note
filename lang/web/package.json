@@ -1,0 +1,19 @@
+{
+  "dependencies": {
+    "express": "^4.15.2",
+    "koa": "^2.2.0",
+    "koa-logger": "^2.0.1",
+    "koa-router": "next",
+    "micro": "^7.3.2",
+    "microrouter": "^2.1.0"
+  },
+  "scripts": {
+    "koa": "node .js/koa.js",
+    "koa-cluster": "node .js/koa-cluster.js",
+    "micro": "micro .js/micro.js -p 3333"
+  },
+  "devDependencies": {
+    "babel-preset-env": "^1.4.0",
+    "babel-register": "^6.24.1"
+  }
+}

@@ -1,0 +1,17 @@
+version: '2'
+
+services:
+  db:
+    image: "mariadb:10"
+    ports:
+      - "3307:3306"
+    environment:
+      MYSQL_ROOT_PASSWORD: pass
+      MYSQL_DATABASE: tmp
+
+  laravel:
+      image: "laraedit/laraedit"
+      ports:
+        - "80:80"
+      volumes:
+        - ".php/.laravel/app:/var/www/html/app"
