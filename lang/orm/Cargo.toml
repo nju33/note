@@ -1,0 +1,25 @@
+[package]
+name = "orm"
+version = "0.0.0"
+
+[dependencies]
+diesel = {version = "0.12.0", features = ["postgres"]}
+diesel_codegen = {version = "0.12.0", features = ["postgres"]}
+dotenv = "0.10.0"
+
+[lib]
+name = "orm"
+path = ".rust/src/lib.rs"
+
+[[example]]
+name = "diesel-show"
+path = ".rust/diesel_show.rs"
+[[example]]
+name = "diesel-write"
+path = ".rust/diesel_write.rs"
+[[example]]
+name = "diesel-publish"
+path = ".rust/diesel_publish.rs"
+[[example]]
+name = "diesel-delete"
+path = ".rust/diesel_delete.rs"
