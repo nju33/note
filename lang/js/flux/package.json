@@ -1,0 +1,13 @@
+{
+  "dependencies": {
+    "babel-preset-env": "^1.4.0",
+    "babel-preset-react": "^6.24.1",
+    "babelify": "^7.3.0",
+    "flux": "^3.1.2",
+    "react": "^15.5.4",
+    "react-dom": "^15.5.4"
+  },
+  "scripts": {
+    "dev": "budo index.js --open -- -t babelify"
+  }
+}
